@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddEventsToCalendar", "AddEventsToCalendar\AddEventsToCalendar.csproj", "{1E0CB537-469B-46BA-8A91-A9A38808B255}"
+	ProjectSection(ProjectDependencies) = postProject
+		{826AB62E-CD47-4A0E-AB45-97EBA5D92471} = {826AB62E-CD47-4A0E-AB45-97EBA5D92471}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorToDropBox", "MirrorToDropBox\MirrorToDropBox.csproj", "{826AB62E-CD47-4A0E-AB45-97EBA5D92471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E0CB537-469B-46BA-8A91-A9A38808B255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0CB537-469B-46BA-8A91-A9A38808B255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0CB537-469B-46BA-8A91-A9A38808B255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0CB537-469B-46BA-8A91-A9A38808B255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826AB62E-CD47-4A0E-AB45-97EBA5D92471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826AB62E-CD47-4A0E-AB45-97EBA5D92471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826AB62E-CD47-4A0E-AB45-97EBA5D92471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826AB62E-CD47-4A0E-AB45-97EBA5D92471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BED7EBAB-C005-4862-8F9B-74A6FF3FC375}
+	EndGlobalSection
+EndGlobal
